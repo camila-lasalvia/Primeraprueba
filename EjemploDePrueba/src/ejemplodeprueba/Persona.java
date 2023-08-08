@@ -10,7 +10,7 @@ package ejemplodeprueba;
  * @author User
  */
 public class Persona {
-    
+    private int cara;
     private int edad;
     private String nombre;
     private String apellido;
@@ -25,6 +25,14 @@ public class Persona {
         this.nombre = nombre; 
         
         
+    }
+
+    public Persona(int cara, int edad, String nombre, String apellido, Casa casa) {
+        this.cara = cara;
+        this.edad = edad;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.casa = casa;
     }
     
     
